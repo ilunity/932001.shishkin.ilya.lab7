@@ -12,6 +12,8 @@
 .canvas {
     position: relative;
     overflow: hidden;
+
+    border: 1px solid gray;
 }
 
 .shape {
