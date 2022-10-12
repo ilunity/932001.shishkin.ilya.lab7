@@ -16,6 +16,14 @@ export class Shape extends HTMLDivElement {
   close() {
     this.remove();
   }
+
+  highlight() {
+    this.classList.add('shape_highlighted');
+  }
+
+  cleanHighlight() {
+    this.classList.remove('shape_highlighted');
+  }
 }
 
 customElements.define('shape-elem', Shape, { extends: 'div' });
